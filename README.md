@@ -1,7 +1,7 @@
 RacingGame
 ==========
 
-Final project of Game Engineering class
+Final project for Game Engineering class
 
 Authors: Jerome Fletcher, Ang Zhang, Xiao Mao
 
