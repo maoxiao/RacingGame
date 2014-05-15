@@ -3,7 +3,7 @@ RacingGame
 
 Final project for Game Engineering class
 
-Authors: Jerome Fletcher, Ang Zhang, Xiao Mao
+Authors: **Jerome Fletcher, Ang Zhang, Xiao Mao**
 
 Software
 ---------
