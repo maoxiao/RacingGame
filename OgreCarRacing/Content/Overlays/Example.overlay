@@ -1,0 +1,180 @@
+Player
+{
+    zorder 0
+	
+    container Panel(Player/Panel)
+    {
+      metrics_mode relative
+
+      left 0.0
+      top 0.0
+      width 0.2
+      height 0.2
+	  material GreenTrain
+	  
+		element TextArea(Player/Panel/Text1)
+		{
+		metrics_mode relative
+		
+         left 0.03
+		 top 0.03
+         font_name BlueHighwayBig
+         char_height 0.04
+         colour 1 1 1
+         caption Speed : 0 MPH
+		}
+		
+		
+		
+    }
+}
+
+
+PlayUI
+{
+    container Panel(PlayUI/Panel)
+    {
+      metrics_mode relative
+
+      left 0.25
+      top 0.3
+      width 0.55
+      height 0.35
+	  material GreenTrain
+	  
+		element TextArea(PlayUI/Panel/Text1)
+		{
+		metrics_mode relative
+		
+         left 0.03
+		 top 0.03
+         font_name BlueHighwayBig
+         char_height 0.04
+         colour 1 1 1
+         caption Press "Escape" button to Resume Game
+		}
+		
+		element TextArea(PlayUI/Panel/Text2)
+		{
+		metrics_mode relative
+		
+         left 0.03
+		 top 0.09
+         font_name BlueHighwayBig
+         char_height 0.04
+         colour 1 1 1
+         caption Start New Game
+		}
+		
+		element TextArea(PlayUI/Panel/Text3)
+		{
+		metrics_mode relative
+		
+         left 0.06
+		 top 0.14
+         font_name BlueHighwayBig
+         char_height 0.04
+         colour 1 1 1
+         caption Press "1" for -> Level 1
+		}
+		
+		element TextArea(PlayUI/Panel/Text4)
+		{
+		metrics_mode relative
+		
+         left 0.06
+		 top 0.2
+         font_name BlueHighwayBig
+         char_height 0.04
+         colour 1 1 1
+         caption Press "2" for -> Level 2
+		}
+		
+		
+		element TextArea(PlayUI/Panel/Text6)
+		{
+		metrics_mode relative
+		
+         left 0.03
+		 top 0.26
+         font_name BlueHighwayBig
+         char_height 0.04
+         colour 1 1 1
+         caption Press "4" to Exit
+		}
+    }
+}
+
+InitialUI
+{
+    container Panel(InitialUI/Panel)
+    {
+      metrics_mode relative
+
+      left 0.10
+      top 0.18
+      width .8
+      height 0.5
+	  material GreenTrain
+	  
+		element TextArea(InitialUI/Panel/Text1)
+		{
+		metrics_mode relative
+		
+         left 0.20
+		 top 0.09
+         font_name BlueHighwayBig
+         char_height 0.04
+         colour 1 1 1
+         caption >>>>>BATMAN GOES RACING!!!!<<<<<
+		}
+		
+		element TextArea(InitialUI/Panel/Text2)
+		{
+		metrics_mode relative
+		
+         left 0.24
+		 top 0.14
+         font_name BlueHighwayBig
+         char_height 0.04
+         colour 1 1 1
+         caption Start New Game
+		}
+		
+		element TextArea(InitialUI/Panel/Text3)
+		{
+		metrics_mode relative
+		
+         left 0.27
+		 top 0.2
+         font_name BlueHighwayBig
+         char_height 0.04
+         colour 1 1 1
+         caption Press "1" for -> Level 1
+		}
+		
+		element TextArea(InitialUI/Panel/Text4)
+		{
+		metrics_mode relative
+		
+         left 0.27
+		 top 0.26
+         font_name BlueHighwayBig
+         char_height 0.04
+         colour 1 1 1
+         caption Press "2" for -> Level 2
+		}
+		
+		element TextArea(InitialUI/Panel/Text5)
+		{
+		metrics_mode relative
+		
+         left 0.24
+		 top 0.32
+         font_name BlueHighwayBig
+         char_height 0.04
+         colour 1 1 1
+         caption Press "4" to Exit
+		}
+    }
+}

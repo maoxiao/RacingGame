@@ -1,0 +1,28 @@
+Score
+{
+    zorder 200
+	
+    container Panel(Score/Panel1)
+    {
+      metrics_mode relative
+
+      left 0.02
+      top 0.02
+      width 0.25
+      height 0.1
+	  material BlueSemiTran
+	  
+  		element TextArea(Score/Panel1/Text1)
+  		{
+  		 metrics_mode relative
+  		
+           left 0.01
+           top 0.01
+           font_name BlueHighwayBig
+           char_height 0.03
+           colour 1 1 1
+           caption Speed : 0 MPH
+	   }
+    }
+
+}

@@ -1,0 +1,186 @@
+{
+    "basicCarData": {
+        "carNum": 4,
+        "initialSpeed": 30,
+        "speedLimit": 50
+    },
+    "car_list": {
+        "car0": {
+            "position": [0,0,0],
+            "meshName": "name",
+            "maxSpeed": 120
+        },
+        "car1": {
+            "position": [0,0,0],
+            "meshName": "name",
+            "maxSpeed": 100
+        },
+        "car2": {
+            "position": [0,0,0],
+            "meshName": "name",
+            "maxSpeed": 105
+        },
+        "car3": {
+            "position": [0,0,0],
+            "meshName": "name",
+            "rotation": 0
+        }
+    },
+    "middle_wall_list_0": {
+    	"scale": 6,
+        "middle_wall_0": {
+            "position": [0,0,0],
+            "parallel_to": 1
+        }
+    },
+    "middle_wall_list_1": {
+    	"scale": 6,
+        "middle_wall_0": {
+            "position": [0,0,0],
+            "parallel_to": 1
+        },
+        "middle_wall_1": {
+            "position": [32,0,32],
+            "parallel_to": 3
+        }
+    },
+	"track_list_0": {
+		"track0": {
+			"centralAngle": 180,
+			"postion": [-32,0,0],
+			"scale": 6,
+			"end":[-32,0,-32],
+			"start": [-32,0,32],
+			"radius": 32,
+			"width":8,
+			"entityName": "semi_circle_track_0",
+			"rotation": 0,
+			"carOrietation": 270,
+			"mid": [-64,0,0],
+			"turning": -1
+		},
+		"track1": {
+			"centralAngle": 0,
+			"postion": [0,0,32],
+			"scale": 6,
+			"end":[-32,0,32],
+			"start": [32,0,32],
+			"length": 64,
+			"width":8,
+			"entityName": "straight_track_0",
+			"rotation": 0,
+			"carOrietation": 270,
+			"parallel_to": 1
+		},
+		"track2": {
+			"centralAngle": 0,
+			"postion": [0,0,-32],
+			"scale": 6,
+			"end":[32,0,-32],
+			"start": [-32,0,-32],
+			"length": 64,
+			"width":8,
+			"entityName": "straight_track_1",
+			"rotation": 0,
+			"carOrietation": 90,
+			"parallel_to": 1
+		},
+		"track3": {
+			"centralAngle": 180,
+			"postion": [32,0,0],
+			"scale": 6,
+			"end":[32,0,32],
+			"start": [32,0,-32],
+			"radius": 32,
+			"width":8,
+			"entityName": "semi_circle_track_1",
+			"rotation": 180,
+			"carOrietation": 90,
+			"mid": [64,0,0],
+			"turning": -1
+
+		}
+	},
+	"track_list_1": {
+		"track0": {
+			"centralAngle": 180,
+			"postion": [-32,0,0],
+			"scale": 6,
+			"end":[-32,0,-32],
+			"start": [-32,0,32],
+			"radius": 32,
+			"width":8,
+			"entityName": "semi_circle_track_0",
+			"rotation": 0,
+			"carOrietation": 270,
+			"mid": [-64,0,0],
+			"turning": -1
+		},
+		"track1": {
+			"centralAngle": 90,
+			"postion": [-32,0,64],
+			"scale": 6,
+			"end":[-32,0,32],
+			"start": [0,0,64],
+			"radius": 32,
+			"width":8,
+			"entityName": "quarter_circle_track_0",
+			"rotation": -180,
+			"carOrietation": 180,
+			"turning": 1
+		},
+		"track2": {
+			"centralAngle": 180,
+			"postion": [32,0,64],
+			"scale": 6,
+			"end":[0,0,64],
+			"start": [64,0,64],
+			"radius": 32,
+			"width":8,
+			"entityName": "semi_circle_track_1",
+			"rotation": 0,
+			"carOrietation": 0,
+			"mid": [32,0,96],
+			"turning": -1
+		},
+		"track3": {
+			"centralAngle": 0,
+			"postion": [64,0,32],
+			"scale": 6,
+			"end":[64,0,64],
+			"start": [64,0,0],
+			"length": 64,
+			"width":8,
+			"entityName": "straight_track_0",
+			"rotation": 0,
+			"carOrietation": 0,
+			"parallel_to": 3
+		},
+		"track4": {
+			"centralAngle": 90,
+			"postion": [32,0,0],
+			"scale": 6,
+			"end":[64,0,0],
+			"start": [32,0,-32],
+			"radius": 32,
+			"width":8,
+			"entityName": "quarter_circle_track_1",
+			"rotation": 90,
+			"carOrietation": 90,
+			"turning": -1
+		},
+		"track5": {
+			"centralAngle": 0,
+			"postion": [1,0,-32],
+			"scale": 6,
+			"end":[32,0,-32],
+			"start": [-32,0,-32],
+			"length": 64,
+			"width":8,
+			"entityName": "straight_track_1",
+			"rotation": 90,
+			"carOrietation": 90,
+			"parallel_to": 1
+		}
+	}
+}
