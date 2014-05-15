@@ -37,8 +37,8 @@ Libraries
 
 How to use
 ----------
-1. Install Ogre.
+1. Install Ogre
 
-2. Build Bullet.
+2. Build Bullet
 
 3. Setup OgreSound
