@@ -19,13 +19,13 @@ Libraries
 [Ogre3d] 
 [Ogre3d]: http://www.ogre3d.org/
 
-###OgreSound
-[OgreSound]
-[OgreSound]: http://www.ogre3d.org/tikiwiki/tiki-index.php?page=OgreOggSound
-
 ###Bullet Physics Engine
 [Bullet Physics Engine]
 [Bullet Physics Engine]: http://bulletphysics.org
+
+###OgreSound
+[OgreSound]
+[OgreSound]: http://www.ogre3d.org/tikiwiki/tiki-index.php?page=OgreOggSound
 
 ###btogre
 [btogre]
@@ -34,6 +34,10 @@ Libraries
 ###BtOgre
 [BtOgre]
 [BtOgre]: https://github.com/nikki93/btogre
+
+###rapidjson
+[rapidjson]
+[rapidjson]: https://code.google.com/p/rapidjson/
 
 How to use
 ----------
