@@ -39,7 +39,7 @@ Libraries
 [rapidjson]
 [rapidjson]: https://code.google.com/p/rapidjson/
 
-How to use
+Requreiment
 ----------
 1. Install Ogre
 
