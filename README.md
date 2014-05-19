@@ -31,9 +31,6 @@ Libraries
 [btogre]
 [btogre]: https://github.com/nikki93/btogre
 
-###BtOgre
-[BtOgre]
-[BtOgre]: https://github.com/nikki93/btogre
 
 ###rapidjson
 [rapidjson]
